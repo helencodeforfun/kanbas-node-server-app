@@ -1,0 +1,56 @@
+Arguments: 
+  /home/yuuki/.nvm/versions/node/v20.5.1/bin/node /usr/bin/yarn install
+
+PATH: 
+  /opt/miniconda3/condabin:/home/yuuki/.nvm/versions/node/v20.5.1/bin:/home/yuuki/.local/share/zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin:/home/yuuki/.local/bin:/bin:/home/yuuki/.config/go/bin:/home/yuuki/.local/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.5.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.npm.taobao.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+
+npm manifest: 
+  {
+    "type": "module",
+    "name": "kanbas-node-server-app",
+    "version": "1.0.0",
+    "description": "Node.js HTTP Web server for the Kanbas application",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/helencodeforfun/kanbas-react-web-app.git"
+    },
+    "keywords": [
+      "Node",
+      "REST",
+      "Server",
+      "HTTP"
+    ],
+    "author": "Helen Hu",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/helencodeforfun/kanbas-react-web-app/issues"
+    },
+    "homepage": "https://github.com/helencodeforfun/kanbas-react-web-app#readme",
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
