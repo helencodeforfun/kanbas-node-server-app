@@ -23,6 +23,12 @@
   "bugs": {
     "url": "https://github.com/helencodeforfun/kanbas-react-web-app/issues"
   },
+  "engines": {
+    "node": ">=16.0.0"
+  
+  },
+
+
   "homepage": "https://github.com/helencodeforfun/kanbas-react-web-app#readme",
   "dependencies": {
     "body-parser": "^1.20.2",
